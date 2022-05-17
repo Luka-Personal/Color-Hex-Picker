@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Lato, "Segoe UI", Verdana, Arial, sans-serif;
+}
+/* ####################### */
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 185rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+/* ####################### */
+/* HEADER */
+.header-main {
+  font-size: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  /* position: fixed; */
+  max-width: 185rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  height: 8rem;
+}
+.nav-items {
+  display: flex;
+  gap: 8rem;
+}
+.logo-link:link,
+.logo-link:visited {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #444;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  height: fit-content;
+  color: #666;
+  transition: all 0.3s;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #222;
+  background-color: #eee;
+}
+/* ####################### */
+/* HERO */
+.hero {
+  padding-top: 7.5rem;
+}
+.hero-main {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 15rem;
+}
+.heading-part1,
+.heading-part2 {
+  font-size: 4rem;
+  margin-top: 11rem;
+  color: #495057;
+  max-width: 38rem;
+  line-height: 1.3;
+  font-weight: 650;
+}
+.heading-part2 {
+  margin-top: 0;
+  max-width: 100%;
+}
+.under-heading-ex,
+.under-heading-ver,
+.under-heading-lic {
+  margin-top: 2rem;
+  color: #868e96;
+  font-size: 2rem;
+}
+.under-heading-ver,
+.under-heading-lic {
+  font-size: 1.4rem;
+}
+.under-heading-lic {
+  margin-top: 0.2rem;
+}
+.color-pad {
+  padding-top: 2rem;
+}

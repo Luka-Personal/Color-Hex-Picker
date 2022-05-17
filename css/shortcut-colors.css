@@ -1,0 +1,170 @@
+/* ####################### */
+/* SHORTCUT SECTION */
+.shortcut {
+  padding-top: 2rem;
+}
+.shortcut-main {
+  max-width: 100rem;
+}
+.shortcut-ul li {
+  display: inline-block;
+  font-size: 1.4rem;
+  width: 14rem;
+  height: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.color:link,
+.color:visited {
+  text-decoration: none;
+  color: #868e96;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  transition: all 0.3s;
+}
+.color-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+}
+/* box colors for each of shortcuts */
+.gray {
+  background-color: #495057;
+}
+.pink {
+  background-color: #d6336c;
+}
+.violet {
+  background-color: #7048e8;
+}
+.blue {
+  background-color: #1c7ed6;
+}
+.teal {
+  background-color: #0ca678;
+}
+.lime {
+  background-color: #74b816;
+}
+.orange {
+  background-color: #f76707;
+}
+.red {
+  background-color: #f03e3e;
+}
+.grape {
+  background-color: #ae3ec9;
+}
+.indigo {
+  background-color: #4263eb;
+}
+.cyan {
+  background-color: #1098ad;
+}
+.green {
+  background-color: #37b24d;
+}
+.yellow {
+  background-color: #f59f00;
+}
+/* ########################## */
+/* hover states for each color */
+.a-color-gray:hover,
+.a-color-gray:active {
+  color: #444;
+}
+.a-color-pink:hover,
+.a-color-pink:active {
+  color: #d6336c;
+}
+.a-color-violet:hover,
+.a-color-violet:active {
+  color: #7048e8;
+}
+.a-color-blue:hover,
+.a-color-blue:active {
+  color: #1c7ed6;
+}
+.a-color-teal:hover,
+.a-color-teal:active {
+  color: #0ca678;
+}
+.a-color-lime:hover,
+.a-color-lime:active {
+  color: #74b816;
+}
+.a-color-orange:hover,
+.a-color-orange:active {
+  color: #f76707;
+}
+.a-color-red:hover,
+.a-color-red:active {
+  color: #f03e3e;
+}
+.a-color-grape:hover,
+.a-color-grape:active {
+  color: #ae3ec9;
+}
+.a-color-indigo:hover,
+.a-color-indigo:active {
+  color: #4263eb;
+}
+.a-color-cyan:hover,
+.a-color-cyan:active {
+  color: #1098ad;
+}
+.a-color-green:hover,
+.a-color-green:active {
+  color: #37b24d;
+}
+.a-color-yellow:hover,
+.a-color-yellow:active {
+  color: #f59f00;
+}
+/* ########################## */
+/* SECTION COPY-COLORS */
+.copy-colors {
+  padding-top: 5rem;
+  padding-bottom: 45rem;
+}
+.copy-heading {
+  font-size: 3rem;
+  color: #444;
+  font-weight: 500;
+  margin: 6rem 0 3rem;
+}
+.general-shades {
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.ilst-box {
+  width: 100%;
+  height: 10rem;
+  transition: all 0.15s;
+  font-size: 0;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+.ilst-box:hover {
+  transform: scale(0.95);
+}
+.shade {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.shade div p {
+  text-transform: uppercase;
+  color: #495057;
+}
+.shade div span {
+  color: #868e96;
+  letter-spacing: 0.1rem;
+}

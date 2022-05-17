@@ -1,0 +1,38 @@
+@media (max-width: 125em) {
+  .container {
+    max-width: 145rem;
+  }
+  .general-shades {
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+  .shade {
+    width: 16rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 43.75em) {
+  .general-shades {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 33.7em) {
+  /* .general-shades {
+    flex-direction: column;
+  } */
+  html {
+    font-size: 50%;
+  }
+  .shade {
+    flex-direction: row;
+    align-items: center;
+  }
+  .ilst-box {
+    height: 6rem;
+    width: 6rem;
+  }
+  .shade div span,
+  .shade div p {
+    font-size: 1.5rem;
+  }
+}
