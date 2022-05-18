@@ -23,8 +23,7 @@ for (const hx of hexCode) {
 // on click show nav menu
 const addNav = function () {
   navItems.classList.toggle(`nav-toggl`);
-  openIcon.classList.toggle(`hide-open-icon`);
-  closeIcon.classList.toggle(`show-open-icon`);
+  navIcon();
   for (const conts of contBlur) {
     conts.classList.toggle(`blur-bg`);
   }
@@ -33,6 +32,7 @@ const addNav = function () {
 // on click remove nav menu
 const removeNav = function () {
   navItems.classList.remove(`nav-toggl`);
+  navIcon();
   for (const conts of contBlur) {
     conts.classList.remove(`blur-bg`);
   }
@@ -45,6 +45,11 @@ const removeNavWindow = function () {
     openIcon.classList.remove(`hide-open-icon`);
     closeIcon.classList.remove(`show-open-icon`);
   }
+};
+// toggle nav icon
+const navIcon = function () {
+  openIcon.classList.toggle(`hide-open-icon`);
+  closeIcon.classList.toggle(`show-open-icon`);
 };
 // ################################################
 // open menu on click
