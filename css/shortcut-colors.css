@@ -128,8 +128,7 @@
 /* ########################## */
 /* SECTION COPY-COLORS */
 .copy-colors {
-  padding-top: 5rem;
-  padding-bottom: 45rem;
+  padding: 5rem 0 10rem;
 }
 .copy-heading {
   font-size: 3rem;

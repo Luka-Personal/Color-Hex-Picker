@@ -34,17 +34,39 @@ body {
   background-color: #fff;
   z-index: 9999;
   height: 8rem;
+  /* position: relative; */
 }
 .nav-items {
   display: flex;
   gap: 8rem;
+  align-items: center;
 }
+.menu-icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  cursor: pointer;
+}
+/* i know confusing but i cant fix it */
+.menu-box {
+  display: none;
+}
+.helper-close {
+  display: none;
+}
+.hide-open-icon {
+  display: none;
+}
+.show-open-icon {
+  display: block;
+}
+/* ??????????????????????? */
 .logo-link:link,
 .logo-link:visited {
   text-decoration: none;
   font-weight: 800;
   font-size: 3.5rem;
   color: #444;
+  z-index: 999999;
 }
 .nav-link:link,
 .nav-link:visited {
@@ -98,4 +120,22 @@ body {
 }
 .color-pad {
   padding-top: 2rem;
+}
+/* ############################ */
+/* ############################ */
+/* nav items toggle hide/show */
+.nav-toggl {
+  visibility: visible;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100vh !important;
+  opacity: 1 !important;
+}
+/* blur bg for menu */
+.blur-bg {
+  filter: blur(0.5rem);
+}
+/* disable scroll for body in menu */
+.scroll-disable {
+  overflow-y: hidden;
 }
