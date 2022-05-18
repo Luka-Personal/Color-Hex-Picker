@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -12,7 +13,11 @@ body {
 }
 /* ####################### */
 .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .container {
@@ -24,8 +29,14 @@ body {
 /* HEADER */
 .header-main {
   font-size: 1.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 0 2rem;
   /* position: fixed; */
@@ -37,8 +48,12 @@ body {
   /* position: relative; */
 }
 .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 8rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .menu-icon {
@@ -71,8 +86,12 @@ body {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   color: #666;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   padding: 1.5rem 3rem;
   border-radius: 3rem;
@@ -133,6 +152,7 @@ body {
 }
 /* blur bg for menu */
 .blur-bg {
+  -webkit-filter: blur(0.5rem);
   filter: blur(0.5rem);
 }
 /* disable scroll for body in menu */
