@@ -3,7 +3,7 @@
 Want to quickly choose your favorite color for your new website? you are in right hands, click on the colored square,
 and your chosen color's hex code will automatically be copied
 
-Date Finished 5/18/2022 - Слава Украине!
+Date Finished 5/18/2022 - Слава Україні!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
